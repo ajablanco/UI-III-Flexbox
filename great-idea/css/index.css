@@ -180,9 +180,10 @@ body {
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 80px;
 	text-align: center;
 	height: 200px;
+	margin-left: 30%;
 }
 
 span {
@@ -192,15 +193,16 @@ span {
 	font-size: 12pt;
 	text-align: center;
 	padding: 2%;
-	margin-top: 2%;
+	margin-top: 10%;
+	margin-left: 30%;
 }
 
 #top img {
 	width: 30%;
+	margin-right: 3%;
 }
 
 hr {
-	margin-top: 2%;
 	border-top: 1px solid black;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -211,11 +213,16 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	line-height: 15pt;
 
 }
 .section1 div {
 	width: 35%;
 	height: 120px;
+}
+
+.section1 p {
+	margin: 0%;
 }
 
 
@@ -228,12 +235,17 @@ hr {
 .three {
 	display: flex;
 	justify-content: center;
-
+	line-height: 15pt;
 }
 
 .three div {
-	width: 23%;
+	width: 23.25%;
 	height: 120px;
+}
+
+.three p {
+	margin: 0;
+	margin-bottom: 5%;
 }
 
 .address{
@@ -280,10 +292,15 @@ footer {
 	margin-right: 35%;
 }
 
+
 .servicesimg {
 	display: flex;
 	justify-content: center;
 	margin-top: 1%;
+}
+
+.services h2 {
+	font-size: 15pt;
 }
 
 .services {
@@ -298,6 +315,7 @@ footer {
 
 .services p {
 	margin: 0;
+	margin-bottom: 2%
 }
 
 .firstsection{
