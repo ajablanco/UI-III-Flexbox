@@ -156,7 +156,6 @@ body {
 
 .nav a {
 	display: flex;
-	
 	color: grey;	
 	text-decoration: none;
 }
@@ -253,4 +252,157 @@ footer {
 	text-align: center;
 	margin-top: 2%;
 	margin-bottom: 2%;
+}
+
+/* services page */
+
+
+.head {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 2%;
+}
+
+.head nav {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	
+}
+
+.head nav a {
+	display: flex;
+	color: grey;
+	text-decoration: none;
+	margin: 18%;
+	margin-left: 0%;
+	margin-right: 35%;
+}
+
+.servicesimg {
+	display: flex;
+	justify-content: center;
+	margin-top: 1%;
+}
+
+.services {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 2%;
+	line-height: 15pt;
+}
+
+.services p {
+	margin: 0;
+}
+
+.firstsection{
+	display: flex;
+	justify-content: space-evenly;
+	margin-left:12.5%;
+	margin-right: 12.5%;
+	margin-bottom: 2%;
+}
+
+.firstsection div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: whitesmoke;
+	width: 45%;
+	line-height: 15pt;
+}
+
+.firstsection h2, p, button {
+	margin: 2%;
+}
+
+button {
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+	width: 30%;
+}
+
+.secondsection{
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	margin-bottom: 2%;
+	line-height: 15pt;
+}
+
+.secondsection div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: whitesmoke;
+	width: 45%;
+}
+
+.secondsection h2, p, button {
+	margin: 2%;
+}
+
+.thirdsection {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left:12.5%;
+	margin-right: 12.5%;
+	margin-bottom: 2%;
+	line-height: 15pt;
+}
+
+.thirdsection div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: whitesmoke;
+	width: 45%;
+}
+
+.thirdsection h2, p, button {
+	margin: 2.5%;
+}
+
+.bottomsection{
+	display: flex;
+	justify-content: center;
+	line-height: 15pt;
+}
+
+.bottomsection div {
+	display: flex;
+	width: 35%;
+}
+
+#facts {
+	display: flex;
+	flex-direction: column;
+}
+
+#facts p {
+	margin: 0;
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 5%;
+	line-height: normal;
+}
+
+#blonde {
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 3%;
 }
